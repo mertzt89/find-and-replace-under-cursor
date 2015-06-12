@@ -1,10 +1,9 @@
 {
   "name": "find-and-replace-under-cursor",
   "main": "./lib/find-and-replace-under-cursor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Allows you to call search functions on words under the cursor.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": [
       "project-find:search-under-cursor",
@@ -17,6 +16,6 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
-      "atom-utils": "0.0.1"
+    "atom-utils": "0.0.1"
   }
 }
