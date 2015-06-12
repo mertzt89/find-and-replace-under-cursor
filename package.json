@@ -1,0 +1,22 @@
+{
+  "name": "find-and-replace-under-cursor",
+  "main": "./lib/find-and-replace-under-cursor",
+  "version": "0.0.0",
+  "description": "Allows you to call search functions on words under the cursor.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "project-find:search-under-cursor",
+      "find-and-replace:search-under-cursor"
+    ]
+  },
+  "repository": "https://github.com/mertzt89/find-and-replace-under-cursor",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+      "atom-utils": "0.0.1"
+  }
+}
