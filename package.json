@@ -1,7 +1,7 @@
 {
   "name": "find-and-replace-under-cursor",
   "main": "./lib/find-and-replace-under-cursor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Allows you to call search functions on words under the cursor.",
   "keywords": [],
   "activationCommands": {
